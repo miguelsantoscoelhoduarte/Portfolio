@@ -1,0 +1,55 @@
+.navbar-container {
+  margin-bottom: 20px;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  margin: 10vw 6vw; 
+}
+
+img{
+  width: 100px;
+}
+
+#name {
+  font-size: 5em;
+}
+
+#description { 
+  font-size: 2em;
+}
+
+.text {
+  margin-left: 10vw;
+}
+
+img{
+  width: 45vw;
+  height: 45vh;
+}
+
+.social{
+  font-size: 3em;
+  margin-left: 10vw;
+}
+
+#linkedin{
+  margin-right: 2vw;
+}
