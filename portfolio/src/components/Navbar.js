@@ -12,7 +12,7 @@ const Welcome = () => {
     <a href="#home" class="active">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
-    <Link to="/about">About</Link>
+    <Link to="/Portfolio/About">About</Link>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div> 
   );
