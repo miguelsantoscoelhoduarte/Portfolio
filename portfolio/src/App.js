@@ -4,17 +4,17 @@ import { LinkedinShareButton, LinkedinIcon } from 'react-share';
 import { FaGithub } from 'react-icons/fa';
 import RotatingText from './components/RotatingText';
 import CV from './components/CV';
+import Contact from './components/Contact';
 
 function App() {
-  // Estado para controlar qual página mostrar
   const [currentPage, setCurrentPage] = useState('home');
 
-  // Função para renderizar a página atual
   const renderPage = () => {
-    switch(currentPage) {
+    switch (currentPage) {
       case 'cv':
         return <CV />;
-      case 'home':
+      case 'contact':
+        return <Contact />;
       default:
         return (
           <main className="flex items-center justify-center min-h-[calc(100vh-80px)]">
@@ -22,14 +22,20 @@ function App() {
               <h1 className="text-7xl font-bold text-blue-50">Hi, I am Miguel Duarte</h1>
               <RotatingText />
               <div className="mt-6 flex space-x-4">
-                <LinkedinShareButton url={"https://www.linkedin.com/in/miguelscduarte/"} title={"Miguel Duarte - Full Stack Developer"}>
-                  <LinkedinIcon size={40} iconFillColor={"#FFFFFF"} round />
-                </LinkedinShareButton>
+                        <a
+                            href="https://www.linkedin.com/in/miguelscduarte/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-auto"
+                        >
+                            <LinkedinIcon size={40} iconFillColor={"#FFFFFF"} round />
+                        </a>
                 <a
                   href="https://github.com/miguelsantoscoelhoduarte"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#333333] hover:text-[#24292e] transition-colors"
+                  className="text-white hover:text-gray-300 transition-colors"
+                  aria-label="Visit Miguel Duarte's GitHub profile"
                 >
                   <FaGithub size={40} />
                 </a>
@@ -42,9 +48,7 @@ function App() {
 
   return (
     <div className="bg-[#021526] min-h-screen">
-      {/* Passar setCurrentPage para a Navbar */}
       <Navbar setCurrentPage={setCurrentPage} />
-      {/* Renderizar a página atual */}
       {renderPage()}
     </div>
   );
