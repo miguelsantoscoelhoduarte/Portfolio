@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.74373bde.css",
-    "main.js": "/portfolio/static/js/main.122e7bdb.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/carbon-2.png": "/portfolio/static/media/carbon-2.e29209a4b701d68f1dad.png",
-    "static/media/csharp-icon.png": "/portfolio/static/media/csharp-icon.dcfd7cba519fc03651fb.png",
-    "static/media/react-icon.png": "/portfolio/static/media/react-icon.bafc2a1dcbb5c8d3aefc.png",
-    "static/media/sqlserver-icon.png": "/portfolio/static/media/sqlserver-icon.a4ba4125aadc50241c26.png",
-    "static/media/scrum-icon.png": "/portfolio/static/media/scrum-icon.9bda111e56a004cc29b4.png",
-    "static/media/grafana-icon.png": "/portfolio/static/media/grafana-icon.f3210fe04d4f6e7d06a4.png",
-    "static/media/azure-icon.png": "/portfolio/static/media/azure-icon.414ab972bfb94bb1a9dc.png",
-    "static/media/krakend-icon.png": "/portfolio/static/media/krakend-icon.bc5724e143b2a17d463b.png",
-    "static/media/elastic-icon.png": "/portfolio/static/media/elastic-icon.fedcd632444d2867b8c4.png",
-    "static/media/sonarqube-icon.svg": "/portfolio/static/media/sonarqube-icon.5433a6fb79ecc412baad4e6d7ffeb56f.svg",
-    "index.html": "/portfolio/index.html",
-    "main.74373bde.css.map": "/portfolio/static/css/main.74373bde.css.map",
-    "main.122e7bdb.js.map": "/portfolio/static/js/main.122e7bdb.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.74373bde.css",
+    "main.js": "/Portfolio/static/js/main.2beb1a98.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/carbon-2.png": "/Portfolio/static/media/carbon-2.e29209a4b701d68f1dad.png",
+    "static/media/csharp-icon.png": "/Portfolio/static/media/csharp-icon.dcfd7cba519fc03651fb.png",
+    "static/media/react-icon.png": "/Portfolio/static/media/react-icon.bafc2a1dcbb5c8d3aefc.png",
+    "static/media/sqlserver-icon.png": "/Portfolio/static/media/sqlserver-icon.a4ba4125aadc50241c26.png",
+    "static/media/scrum-icon.png": "/Portfolio/static/media/scrum-icon.9bda111e56a004cc29b4.png",
+    "static/media/grafana-icon.png": "/Portfolio/static/media/grafana-icon.f3210fe04d4f6e7d06a4.png",
+    "static/media/azure-icon.png": "/Portfolio/static/media/azure-icon.414ab972bfb94bb1a9dc.png",
+    "static/media/krakend-icon.png": "/Portfolio/static/media/krakend-icon.bc5724e143b2a17d463b.png",
+    "static/media/elastic-icon.png": "/Portfolio/static/media/elastic-icon.fedcd632444d2867b8c4.png",
+    "static/media/sonarqube-icon.svg": "/Portfolio/static/media/sonarqube-icon.5433a6fb79ecc412baad4e6d7ffeb56f.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.74373bde.css.map": "/Portfolio/static/css/main.74373bde.css.map",
+    "main.2beb1a98.js.map": "/Portfolio/static/js/main.2beb1a98.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74373bde.css",
-    "static/js/main.122e7bdb.js"
+    "static/js/main.2beb1a98.js"
   ]
 }
